@@ -1,0 +1,8 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{isola2017image}
+P.~Isola, J.-Y. Zhu, T.~Zhou, and A.~A. Efros.
+\newblock Image-to-image translation with conditional adversarial networks.
+\newblock In {\em CVPR}, 2017.
+
+\end{thebibliography}
