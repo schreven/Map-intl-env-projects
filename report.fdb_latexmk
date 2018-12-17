@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1544973869 "report.aux" "report.bbl" "report" 1544973870
+["bibtex report"] 1545071844 "report.aux" "report.bbl" "report" 1545071980
   "./ieee.bst" 1544816092 19623 63f7ec1e11759dc2b9493d7d771aa923 ""
   "ref.bib" 1544816074 226 c45e85a4d4d9d7c84eeb4fe2b1ad0fa0 ""
-  "report.aux" 1544973870 2679 a86f05ec2ea8939ea11b2426b45db3b1 ""
+  "report.aux" 1545071980 2679 2d3772d892b0df881245fc6c547fd93f ""
   (generated)
-  "report.bbl"
   "report.blg"
-["pdflatex"] 1544973869 "/Users/canaltinigne/Desktop/dataviz-process-book/report.tex" "report.pdf" "report" 1544973870
-  "/Users/canaltinigne/Desktop/dataviz-process-book/report.tex" 1544973867 5647 860f1f78a0597c98bfafd5169ebff583 ""
+  "report.bbl"
+["pdflatex"] 1545071979 "/Users/canaltinigne/Desktop/dataviz-process-book/report.tex" "report.pdf" "report" 1545071980
+  "/Users/canaltinigne/Desktop/dataviz-process-book/report.tex" 1545071979 6074 248d55256673b2169566d8e99100ee5c ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -163,12 +163,12 @@
   "figures/epfl_logo.png" 1544917127 85745 2c333174503e618ffa1db608d8ede848 ""
   "figures/forest.jpg" 1544817348 1226733 c2a3c37a5b8b8ef6df6c44c3f9d5cd15 ""
   "figures/google.jpeg" 1544816117 17893 16a1b2cc24e2eb95f00a25a982730490 ""
-  "report.aux" 1544973870 2679 a86f05ec2ea8939ea11b2426b45db3b1 ""
-  "report.bbl" 1544973869 243 2cfced4750f3bfff985a33adf5f3c140 "bibtex report"
-  "report.out" 1544973870 833 7cf5c88ffe1f84f4d539785de46c1a3b ""
-  "report.tex" 1544973867 5647 860f1f78a0597c98bfafd5169ebff583 ""
+  "report.aux" 1545071980 2679 2d3772d892b0df881245fc6c547fd93f ""
+  "report.bbl" 1545071845 243 2cfced4750f3bfff985a33adf5f3c140 "bibtex report"
+  "report.out" 1545071980 833 7cf5c88ffe1f84f4d539785de46c1a3b ""
+  "report.tex" 1545071979 6074 248d55256673b2169566d8e99100ee5c ""
   (generated)
+  "report.pdf"
   "report.log"
   "report.out"
-  "report.pdf"
   "report.aux"
