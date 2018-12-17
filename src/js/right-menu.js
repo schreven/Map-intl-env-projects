@@ -10,8 +10,8 @@ function buildRightMenu(){
 
   d3.csv("./data/case_studies.csv").then(function(case_studies){
     $('#right-menu-body').append("<div id=title></div>")
-    $('#title').append("<h2> Pathways to Green Growth</h2>")
-    $('#title').append("<h3> Mainstreaming natural capital into policy and finance: international case studies </h3>")
+    $('#title').append("<h3> Mainstreaming Natural Capital into Policy and Finance: International Case Studies </h3>")
+    $('#right-menu-body').append("<div id=book-content></div>")
 
 
     for(var i=0;i<case_studies.length;i++){
@@ -20,17 +20,19 @@ function buildRightMenu(){
         subchapter = case_studies[i]["number"].replace(".","-")
         if (!(all_chapters.includes(chapter))){
           //Division for chapter
-          $('#right-menu-body').append("<div id=right-chapter-"+chapter+"></div>")
+          $('#book-content').append("<div id=right-chapter-"+chapter+"></div>")
           //Chapter Title
-          $('#right-chapter-'+chapter).append("<hr><h4>Chapter "+chapter+": "+case_studies[i]['ch_title']+"</h4>")
+          $('#right-chapter-'+chapter).append("<h4>Chapter "+chapter+": "+case_studies[i]['ch_title']+"</h4>")
           chapter_dict[chapter] = [];
           all_chapters.push(chapter)
-
-        }
+          
+        } 
         chapter_dict[chapter].push(subchapter);
         //Subchapter title
+        
+
         $('#right-chapter-'+chapter).append("<h5 id=right-subchapter-"+subchapter+">"+subchapter+": "+case_studies[i]['name']+"</h5>")
-        //Subchapter summary
+
         $('#right-subchapter-'+subchapter).after("<p id="+subchapter+"-summary>"+case_studies[i]['summary']+"</p>")
         all_subchapters.push(subchapter)
 
